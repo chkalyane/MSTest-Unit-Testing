@@ -1,0 +1,46 @@
+﻿<div ng-controller="productCtrl">
+    <div class="modal modal-lg" tabindex="-1" role="dialog">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" ng-model="model.product.name">{{model.product.name}}</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="{{getImage(model.product.image)}}" class="img-responsive img-circle" alt="{{model.product.name}}" />
+                            </div>
+                            <div class="col-md-4">
+                                <h2>Rs {{model.product.unitPrice}}</h2>
+                                <h3>Discount {{model.product.offeringDiscount}}</h3>
+                                <br />
+                                Quantity:<input type="number" name="quantity" min="1" max="10" ng-model="model.product.cartQuantity"> 
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="row row-sm-height">
+                            <h3>Product Details</h3>
+                        </div>
+                        <br />
+                        <div class="row">
+                            {{'Composition:'  + model.product.composition}}
+                        </div>
+                        <div class="row">
+                            {{'Expiry Date: ' +model.product.expiryDate}}
+                        </div>
+                        <div class="row">
+                            {{'Packing Type: ' + model.product.companyID}}
+                        </div>
+                        <div class="row"> {{'Note: ' + model.product.comments}}</div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="cart.addItem(model.product.id, model.product.name, model.product.unitPrice, model.product.cartQuantity, model.product.offeringDiscount, model.product.shippingCharges)">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>

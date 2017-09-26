@@ -1,0 +1,201 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+body{ background: #f5f5f5; font: 12px 'Segoe UI', 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;   margin: 0;}
+
+.wcd{width:33%; height:40px; float:left;}
+.wcd-logo{font-size: 36px; color: #fff;text-align: center; float:left; cursor: pointer;  color:#fff; font-size: 32px; font-family: 'Varela Round', sans-serif;
+-webkit-transition:color 0.3s ease-in;  -moz-transition:color 0.3s ease-in; x²-o-transition:color 0.3s ease-in; transition:color 0.3s ease-in;
+   }
+   .wcd-logo:hover{color:#3facff;}
+.wcd-tuto{ font-family: 'Varela Round', sans-serif; color: #fff; font-size: 16px; line-height: 36px;}
+.webcodo-top{width:100%; height:40px; background-color:#232323}
+
+.clear{clear: both;}
+.grid, .list{
+	border-radius: 3px;
+	width: 15px; 
+	height:15px; 
+	margin-left: 10px; 
+	float: left; 
+	cursor:  pointer; 
+	padding: 5px; 
+}
+
+.view-cnt{ width:70px; height: 25px; float: right; margin-right: 15px;}
+
+.grid{background: url(../img/grid.png) 50% no-repeat;}
+.grid:hover{background: #7eb800 url(../img/gridw.png) 50% no-repeat;}
+.grid-active{ background: #039fd3 url(../img/gridw.png) 50% no-repeat; }
+
+.list{background:  url(../img/list.png) 50% no-repeat;}
+.list:hover{background: #7eb800 url(../img/listw.png) 50% no-repeat;}
+.list-active{background: #039fd3 url(../img/listw.png) 50% no-repeat;}
+
+.prods-cnt{
+	width: 950px; height:auto; min-height: 400px; 
+	margin: 40px auto; padding: 40px;
+	background-color: #fafafa;
+	border: #ccc 1px dotted;
+	overflow: auto; 
+}
+
+/* Category menu Style */
+.category-menu ul{ padding-left: 15px;}
+.category-menu ul li{ 
+	list-style: none; cursor: pointer;
+	float: left; margin-right: 10px;
+	background-color: #039fd3; color: #fff; 
+	padding: 5px 10px;
+	font-size: 13px;
+	border-radius: 3px;
+	-webkit-transition:background-color 0.3s ease-in;  
+   	-moz-transition:background-color 0.3s ease-in;  
+   	-o-transition:background-color 0.3s ease-in;  
+   	transition:background-color 0.3s ease-in;
+}
+.category-menu ul li:hover, .category-menu ul li.cat-active{
+	background: #7eb800;
+}
+
+
+/* Grid Style */
+.prod-box{
+	width: 190px; height: 260px;
+	padding: 10px; margin: 15px;
+	background-color: #fff;
+	float: left;
+}
+
+.prod-box img:first-child, .prod-box-list img:first-child{width: 190px; float: left;}
+.prod-box h3 a{
+	text-decoration: none;
+	width:140px;
+	float: left;
+	margin: 5px 0;
+	color:#888;
+	font: italic normal 14px georgia;
+	font-style: italic;
+}
+.prod-box p{ display: none;}
+
+.prod-box .old{
+	margin-right: 20px;
+	color: #be0000 !important;
+	text-decoration: line-through;
+}
+.prod-box .price{
+	width: 60px;
+	display: inline; 
+	float: left;
+	font: italic 13px georgia;
+	color: #181818;
+}
+.prod-box .buy-ico{
+	border-radius: 20px;
+	width: 35px; height: 35px;
+	float: right;
+	margin: 5px;
+	cursor: pointer;
+	background: #039fd3 url(../img/bag-ico.png) 50%  no-repeat;
+	-webkit-transition:background-color 0.3s ease-in;  
+   	-moz-transition:background-color 0.3s ease-in;  
+   	-o-transition:background-color 0.3s ease-in;  
+   	transition:background-color 0.3s ease-in;
+}
+.prod-box .buy-ico:hover{
+	background-color: #7eb800;
+}
+
+/* List View Style */
+.prod-box-list{
+	height: 190px;
+	width: 670px;
+	margin: 15px;
+	padding: 10px;
+	background-color: #fff;
+}
+.prod-box-list h3 a{
+	text-decoration: none;
+	width:320px;
+	float: left;
+	padding:0;
+	margin: 0 10px;
+	color:#3c2e25;
+	font: italic normal 22px georgia;
+}
+.prod-box-list p{
+	color: #888;
+	width:360px;
+	float: left;
+
+	margin: 20px 10px 10px 10px;
+	font: italic 13px  georgia;
+	line-height: 20px;
+}
+.prod-box-list .buy-ico{
+	border-radius: 5px;
+	width: 85px; 
+	height: 20px;
+	color: #fff;
+	padding: 5px 5px 5px 30px;
+	font:italic 12px georgia;
+	float: right;
+	margin: 5px;
+	cursor: pointer;
+
+	background: #039fd3 url(../img/bag-ico.png) 5% 50%  no-repeat;
+	-webkit-transition:background-color 0.3s ease-in;  
+   	-moz-transition:background-color 0.3s ease-in;  
+   	-o-transition:background-color 0.3s ease-in;  
+   	transition:background-color 0.3s ease-in;
+}
+.prod-box-list .buy-ico:before{content: "More Details";	line-height: 22px;  }
+.prod-box-list .buy-ico:hover{	background-color: #7eb800;}
+
+.prod-box-list .old{	
+	color: #be0000 !important; 
+	float: right;	
+	font-style: 18px;
+	text-decoration: line-through;
+}
+.prod-box-list .price{
+	margin-right: 10px;
+	display: block; 
+	font: italic 20px georgia;
+	color: #181818;
+	margin:7px;
+}
+.prod-box-list .price-cnt{ width: 95px; height: auto; float: right; text-align: right;}
+
+
+/* Css Shadow Effect for the prod-box and prod-box-list div */
+ .shadow{
+    -webkit-box-shadow: 0px 0px 18px rgba(50, 50, 50, 0.31);
+    -moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 0.31);
+    box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.31);
+}
+

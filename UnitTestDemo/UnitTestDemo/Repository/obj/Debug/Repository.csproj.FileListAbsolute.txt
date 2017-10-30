@@ -1,0 +1,4 @@
+c:\users\kchintagumpala\documents\visual studio 2012\Projects\UnitTestDemo\Repository\bin\Debug\Repository.dll
+c:\users\kchintagumpala\documents\visual studio 2012\Projects\UnitTestDemo\Repository\bin\Debug\Repository.pdb
+c:\users\kchintagumpala\documents\visual studio 2012\Projects\UnitTestDemo\Repository\obj\Debug\Repository.dll
+c:\users\kchintagumpala\documents\visual studio 2012\Projects\UnitTestDemo\Repository\obj\Debug\Repository.pdb

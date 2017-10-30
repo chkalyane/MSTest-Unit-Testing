@@ -1,0 +1,5 @@
+D:\Kalyani\UnitTestDemo\UnitTestDemo\Services\bin\Debug\Services.dll
+D:\Kalyani\UnitTestDemo\UnitTestDemo\Services\bin\Debug\Services.pdb
+D:\Kalyani\UnitTestDemo\UnitTestDemo\Services\obj\Debug\Services.dll
+D:\Kalyani\UnitTestDemo\UnitTestDemo\Services\obj\Debug\Services.pdb
+D:\Kalyani\UnitTestDemo\UnitTestDemo\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache

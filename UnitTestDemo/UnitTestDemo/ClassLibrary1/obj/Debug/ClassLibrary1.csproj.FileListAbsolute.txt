@@ -1,5 +1,0 @@
-C:\Users\kchintagumpala\Documents\Visual Studio 2012\Projects\UnitTestDemo\ClassLibrary1\bin\Debug\ClassLibrary1.dll
-C:\Users\kchintagumpala\Documents\Visual Studio 2012\Projects\UnitTestDemo\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
-C:\Users\kchintagumpala\Documents\Visual Studio 2012\Projects\UnitTestDemo\ClassLibrary1\bin\Debug\Moq.dll
-C:\Users\kchintagumpala\Documents\Visual Studio 2012\Projects\UnitTestDemo\ClassLibrary1\obj\Debug\ClassLibrary1.dll
-C:\Users\kchintagumpala\Documents\Visual Studio 2012\Projects\UnitTestDemo\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

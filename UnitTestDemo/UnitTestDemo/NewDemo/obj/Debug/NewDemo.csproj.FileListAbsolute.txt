@@ -1,6 +1,0 @@
-D:\Kalyani\UnitTestDemo\UnitTestDemo\NewDemo\bin\Debug\NewDemo.dll
-D:\Kalyani\UnitTestDemo\UnitTestDemo\NewDemo\bin\Debug\NewDemo.pdb
-D:\Kalyani\UnitTestDemo\UnitTestDemo\NewDemo\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-D:\Kalyani\UnitTestDemo\UnitTestDemo\NewDemo\obj\Debug\NewDemo.csprojResolveAssemblyReference.cache
-D:\Kalyani\UnitTestDemo\UnitTestDemo\NewDemo\obj\Debug\NewDemo.dll
-D:\Kalyani\UnitTestDemo\UnitTestDemo\NewDemo\obj\Debug\NewDemo.pdb

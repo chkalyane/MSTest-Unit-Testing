@@ -2,10 +2,6 @@
 using UnitTestDemoUI.Models;
 using UnitTestDemoUI.Repository;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Services
 {
@@ -19,11 +15,11 @@ namespace Services
             _userRepository = userRepository;
         }
 
-        public bool CreateUser(User user)
+        public bool Add(User user)
         {
             try
             {
-                return _userRepository.CreateUser(user);
+                return _userRepository.Add(user);
             }
             catch (Exception ex)
             {
@@ -31,9 +27,14 @@ namespace Services
             }
         }
 
-        public bool DeleteUser(User user)
+		public User Get(int userID)
+		{
+			return _userRepository.Get(userID);
+		}
+
+		public bool Delete(User user)
         {
-            return _userRepository.DeleteUser(user);
+            return _userRepository.Delete(user);
         }
 
     }

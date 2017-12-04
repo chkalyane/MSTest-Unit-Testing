@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using UnitTestDemoUI.Models;
 using System.Data.SqlClient;
-using System.Data;
 
 namespace UnitTestDemoUI.Repository
 {
@@ -16,26 +12,18 @@ namespace UnitTestDemoUI.Repository
 			connection = new SqlConnection(@"Data Source=EPINHYDW0905\SQLEXPRESS;Initial Catalog=testing;Integrated Security=True");
 		}
 
-		public bool CreateUser(User user)
+		public bool Add(User user)
 		{
-			try
-			{
-				var strQuery = "INSERT INTO Users(Name) " +
-										"VALUES('" + user.Name + "')";
-				SqlCommand command = new SqlCommand(strQuery, connection);
-				connection.Open();
-				command.ExecuteNonQuery();
-				return true;
-			}
-			catch (Exception ex)
-			{
-				return false;
-			}
+			var strQuery = "INSERT INTO Users(Name) VALUES('" + user.Name + "')";
+			SqlCommand command = new SqlCommand(strQuery, connection);
+			connection.Open();
+			command.ExecuteNonQuery();
+			return true;
 		}
 
-		public User GetUser(int ID)
+		public User Get(int userID)
 		{
-			if (ID <= 0)
+			if (userID <= 0)
 				return new User()
 				{
 					Name = "Job",
@@ -48,13 +36,13 @@ namespace UnitTestDemoUI.Repository
 				return new User();
 		}
 
-		
-		bool IUserRepository.DeleteUser(User user)
+
+		bool IUserRepository.Delete(User user)
 		{
 			throw new NotImplementedException();
 		}
 
-		
+
 
 
 		#region 

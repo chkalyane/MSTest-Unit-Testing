@@ -5,11 +5,11 @@ namespace UnitTestDemoUI.Repository
 {
     public interface IUserRepository
     {
-        bool CreateUser(User user);
+        bool Add(User user);
 
-		User GetUser(int ID);
+		User Get(int ID);
 
-		bool DeleteUser(User user);
+		bool Delete(User user);
 
 	}
 }

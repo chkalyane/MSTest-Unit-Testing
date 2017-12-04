@@ -20,7 +20,7 @@ namespace UnitTestDemoUI.Repository
 			_command = command;
 		}
 
-		public bool CreateUser(User user)
+		public bool Add(User user)
 		{
 			try
 			{
@@ -37,7 +37,7 @@ namespace UnitTestDemoUI.Repository
 			}
 		}
 
-		public User GetUser(int ID)
+		public User Get(int ID)
 		{
 			if (ID <= 0)
 				return new User()
@@ -139,7 +139,7 @@ namespace UnitTestDemoUI.Repository
 				throw new NotImplementedException();
 			}
 		}
-		bool IUserRepository.DeleteUser(User user)
+		bool IUserRepository.Delete(User user)
 		{
 			throw new NotImplementedException();
 		}

@@ -14,7 +14,7 @@ namespace UnitTestDemoUITests
 	public class UserRepositoryTests
 	{
 		[TestMethod]
-		public void CreateUser_ValidInput_RetunTrue()
+		public void Add_ValidInput_RetunTrue()
 		{
 			//Arrange
 			var repository = new UserRepository();
@@ -22,7 +22,7 @@ namespace UnitTestDemoUITests
 			var result = true;
 
 			//Act
-			var expected = repository.CreateUser(user);
+			var expected = repository.Add(user);
 
 			//Assert
 
@@ -30,7 +30,7 @@ namespace UnitTestDemoUITests
 		}
 
 		[TestMethod]
-		public void MockCreateUser_ValidInput_RetunTrue()
+		public void MockAdd_ValidInput_RetunTrue()
 		{
 			//Arrange
 			var mockCommand = new Mock<IDbCommand>();
@@ -40,21 +40,21 @@ namespace UnitTestDemoUITests
 			mockCommand.Setup(_ => _.ExecuteNonQuery()).Returns(0);
 
 			//Act
-			var expected = repository.CreateUser(user);
+			var expected = repository.Add(user);
 
 			//Assert
 			Assert.AreEqual(result, expected);
 		}
 
 		[TestMethod]
-		public void GetUser_WithIDisZero_RetunAdminUser()
+		public void Get_WithIDisZero_RetunAdminUser()
 		{
 			//Arrange
 			var repository = new UserRepository();
 			var ID = 0;
 
 			//Act
-			var expected = repository.GetUser(0);
+			var expected = repository.Get(0);
 
 			//Assert
 

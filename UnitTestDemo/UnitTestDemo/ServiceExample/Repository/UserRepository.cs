@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using ServiceExample.Models;
+using UnitTestDemoUI.Models;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace ServiceExample.Repository
+namespace UnitTestDemoUI.Repository
 {
 	public class UserRepository : IUserRepository
 	{

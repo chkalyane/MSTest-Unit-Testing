@@ -1,11 +1,7 @@
-﻿using ServiceExample.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using UnitTestDemoUI.Models;
 
-namespace ServiceExample.Repository
+
+namespace UnitTestDemoUI.Repository
 {
     public interface IUserRepository
     {

@@ -1,13 +1,13 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using ServiceExample.Models;
-using ServiceExample.Repository;
-using ServiceExample.Services;
+using UnitTestDemoUI.Models;
+using UnitTestDemoUI.Repository;
+using UnitTestDemoUI.Services;
 using System.Collections.Generic;
 using System.Data;
 
 
-namespace ServiceExampleTests
+namespace UnitTestDemoUITests
 {
 
 	[TestClass]

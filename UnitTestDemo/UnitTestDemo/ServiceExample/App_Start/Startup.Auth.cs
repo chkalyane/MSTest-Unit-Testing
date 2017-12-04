@@ -3,11 +3,10 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
-using Microsoft.Owin.Security.Google;
 using Owin;
-using ServiceExample.Models;
+using UnitTestDemoUI.Models;
 
-namespace ServiceExample
+namespace UnitTestDemoUI
 {
     public partial class Startup
     {

@@ -8,9 +8,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0DA928
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceExample", "ServiceExample\ServiceExample.csproj", "{877865DC-DD0D-4076-AB53-489942B92042}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDemoUI", "ServiceExample\UnitTestDemoUI.csproj", "{877865DC-DD0D-4076-AB53-489942B92042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceExampleTests", "UnitTestProject3\ServiceExampleTests.csproj", "{4FDC954D-F528-45E0-986A-32FA52C8D14E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDemoUITests", "UnitTestProject3\UnitTestDemoUITests.csproj", "{4FDC954D-F528-45E0-986A-32FA52C8D14E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,5 @@
 ﻿
-namespace ServiceExample.Services
+namespace UnitTestDemoUI.Services
 {
     public class CalculationService
     {

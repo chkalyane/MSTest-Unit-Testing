@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace ServiceExample.Models
+namespace UnitTestDemoUI.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

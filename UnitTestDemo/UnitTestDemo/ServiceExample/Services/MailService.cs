@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 
-namespace ServiceExample.Services
+namespace UnitTestDemoUI.Services
 {
 	
 	public class Order : IOrder

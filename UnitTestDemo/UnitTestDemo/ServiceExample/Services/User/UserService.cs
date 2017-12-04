@@ -1,6 +1,6 @@
 ﻿
-using ServiceExample.Models;
-using ServiceExample.Repository;
+using UnitTestDemoUI.Models;
+using UnitTestDemoUI.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

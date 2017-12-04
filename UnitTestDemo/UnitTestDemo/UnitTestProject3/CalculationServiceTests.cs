@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ServiceExample.Services;
+using UnitTestDemoUI.Services;
 
 
-namespace ServiceExampleTests
+namespace UnitTestDemoUITests
 {
 	[TestClass]
 	public class CalculationClassTests

@@ -9,3 +9,4 @@ D:\git_repo\MSTestingDemo\MSTestingDemo\MSTestingDemo\obj\Debug\MSTestingDemo.ex
 D:\git_repo\MSTestingDemo\MSTestingDemo\MSTestingDemo\obj\Debug\MSTestingDemo.pdb
 D:\git_repo\MSTestingDemo\MSTestingDemo\MSTestingDemo\bin\Debug\MSTestingDemo.exe
 D:\git_repo\MSTestingDemo\MSTestingDemo\MSTestingDemo\bin\Debug\MSTestingDemo.pdb
+D:\git_repo\MSTestingDemo\MSTestingDemo\MSTestingDemo\obj\Debug\MSTestingDemo.csprojResolveAssemblyReference.cache

@@ -6,3 +6,11 @@ D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\MSTestingDemo.exe
 D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\MSTestingDemo.pdb
 D:\git_repo\MSTestingDemo\MSTestingDemoTests\obj\Debug\MSTestingDemoTests.dll
 D:\git_repo\MSTestingDemo\MSTestingDemoTests\obj\Debug\MSTestingDemoTests.pdb
+D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\Castle.Core.dll
+D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\Moq.dll
+D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\System.ValueTuple.dll
+D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\Castle.Core.xml
+D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\Moq.pdb
+D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\Moq.xml
+D:\git_repo\MSTestingDemo\MSTestingDemoTests\bin\Debug\System.Threading.Tasks.Extensions.xml

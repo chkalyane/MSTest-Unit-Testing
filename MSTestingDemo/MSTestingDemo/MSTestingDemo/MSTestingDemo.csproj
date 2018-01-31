@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Shared\Car.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Services\OrderService.cs" />
     <Compile Include="Services\UserService.cs" />
     <Compile Include="Shared\CalculationService.cs" />
+    <Compile Include="Shared\CarService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

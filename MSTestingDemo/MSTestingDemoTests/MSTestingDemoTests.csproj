@@ -68,9 +68,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CalculationServiceTests.cs" />
+    <Compile Include="Shared\CalculationServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\UserRepositoryTests.cs" />
+    <Compile Include="Shared\MaruthiTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MSTestingDemo\MSTestingDemo\MSTestingDemo.csproj">
